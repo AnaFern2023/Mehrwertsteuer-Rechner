@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+section {
+    background-color: lightblue;
+    padding: 3vh 4%;
+    width: 70%;
+}
+
+section h2 {
+    padding-bottom: 2vh;
+    font-size: 3rem;
+}
+
+section h3 {
+    font-size: 2rem;
+}
+
+section label {
+    font-size: 1.5rem;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+section form {
+    background-color: antiquewhite;
+    padding: 1vh 2%;
+    border: 2px solid darkgrey;
+    margin-bottom: 2vh;
+}
+
+section form div h3 {
+    padding: 1vh 0;
+}
+
+section form div:nth-of-type(1) div:nth-of-type(1) {
+    margin-bottom: 1vh;
+}
+
+section form div:nth-of-type(2) label:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+section form div:nth-of-type(3) input:nth-of-type(1) {
+    padding: 0.5vh 0.5%;
+    width: 25%;
+}
+
+section form div:nth-of-type(3) input:nth-of-type(2) {
+    display: block;
+    margin: 2vh 0 1vh 0;
+    padding: 1vh 2%;
+    border-radius: 4px;
+    border: none;
+    background-color: lightblue;
+}
+
+section form div:nth-of-type(3) input:nth-of-type(2):hover {
+    background-color: lightskyblue;
+}
+
+section article {
+    background-color: antiquewhite;
+    padding: 1vh 2%;
+    border: 2px solid darkgrey;
+    margin-top: 2vh;
+}
+
+section article p {
+    padding: 1vh 0;
+}
